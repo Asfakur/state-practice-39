@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Home = () => {
+const Home = (props) => {
+    const {count, setCount} =props;
     return (
         <div>
-            <h1>This is home</h1>
+            <h1>This is home : {count}</h1>
         </div>
     );
 };
