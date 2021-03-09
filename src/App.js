@@ -10,7 +10,7 @@ function App() {
     <div>
       <p>count value: {count}</p>
       <Header count = {count} setCount = {setCount}></Header>
-      <Home count = {count} setCount = {setCount}></Home>
+      <Home count = {count}></Home>
       <Shipment></Shipment>
     </div>
   );
